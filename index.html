@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="test1">test</button>
+        <input type="text" ref="name" value="LAMY">
+        <input type="number" ref="price" value="230">
+        <input type="number" ref="quantity" value="5">
+        <button @click="addProduct()">add product</button>
+
+        <ul>
+            <li v-for="product in products">
+                {{product.name}}--{{product.price}}--
+                <input type="number" v-model="product.quantity" min="0">
+                <button @click="deleteProduct(product)">删除</button>
+                <button @click="updateProduct(product)">update product</button>
+                ---<template v-if="product.quantity==0">售完</template>
+            </li>
+        </ul>
+        总价：<template>{{total}}</template>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

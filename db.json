@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": 23.5,
+      "quantity": 1,
+      "name": "Compass"
+    },
+    {
+      "id": 2,
+      "price": 168,
+      "quantity": "6",
+      "name": "Jacket"
+    },
+    {
+      "id": 3,
+      "price": 8,
+      "quantity": "2",
+      "name": "Hiking Socks"
+    },
+    {
+      "id": 4,
+      "price": 100,
+      "quantity": "10",
+      "name": "Suntan Lotion"
+    },
+    {
+      "id": 5,
+      "price": 5,
+      "quantity": 999,
+      "name": "Spiderman"
+    },
+    {
+      "name": "LAMY",
+      "quantity": "5",
+      "price": "230",
+      "id": 7
+    },
+    {
+      "name": "LAMY",
+      "quantity": "5",
+      "price": "230",
+      "id": 8
+    }
+  ]
+}
